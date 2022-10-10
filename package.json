@@ -1,0 +1,23 @@
+{
+  "name": "pkg-repro-better-sqlite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": "git@github.com:jgoux/pkg-repro-better-sqlite.git",
+  "author": "jgoux <hi@jgoux.dev>",
+  "license": "MIT",
+  "pkg": {
+    "assets": [
+      "./node_modules/better-sqlite3/build/Release/better_sqlite3.node"
+    ]
+  },
+  "scripts": {
+    "build": "pkg . --output dist/pkg-repro-better-sqlite"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.6.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
