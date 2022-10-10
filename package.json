@@ -12,7 +12,8 @@
     ]
   },
   "scripts": {
-    "build": "pkg . --output dist/pkg-repro-better-sqlite"
+    "build": "pkg . --output dist/pkg-repro-better-sqlite",
+    "start": "./dist/pkg-repro-better-sqlite"
   },
   "dependencies": {
     "better-sqlite3": "^7.6.2"
